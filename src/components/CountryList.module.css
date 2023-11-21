@@ -1,0 +1,22 @@
+.countryList {
+  /* dimension */
+  width: 100%;
+  height: 100%;
+
+  /* html */
+  list-style: none;
+
+  /* display */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: start;
+  gap: 1.5rem;
+
+  /* extra */
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.countryList::-webkit-scrollbar {
+  display: none;
+}

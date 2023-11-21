@@ -1,0 +1,25 @@
+.countryItem {
+  /* display */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+
+  /* font */
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  /* background */
+  background-color: var(--color-dark--2);
+
+  /* dimension */
+  border-radius: 7px;
+  padding: 1rem 2rem;
+  border-left: 5px solid var(--color-brand--1);
+}
+
+.countryItem span:first-child {
+  /* font */
+  font-size: 3rem;
+  line-height: 1;
+}

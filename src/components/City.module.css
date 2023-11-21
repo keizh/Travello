@@ -1,0 +1,58 @@
+.city {
+  /* dimension */
+  padding: 2rem 3rem;
+  border-radius: 7px;
+  max-height: 70%;
+  width: 100%;
+  /*background  */
+  background-color: var(--color-dark--2);
+  /* display */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* extra */
+  overflow: scroll;
+}
+
+.row {
+  /* diaplay */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.city h6 {
+  /* font */
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 900;
+  color: var(--color-light--1);
+}
+
+.city h3 {
+  /* font */
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.city h3 span {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.city p {
+  font-size: 1.5rem;
+}
+
+.city a:link,
+.city a:visited {
+  /* font */
+  font-size: 1.5rem;
+  color: var(--color-brand--1);
+}
+
+.city::-webkit-scrollbar {
+  display: none;
+}

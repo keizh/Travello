@@ -1,0 +1,16 @@
+{
+  "cities": [
+    {
+      "cityName": "Mumbai",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2023-11-10T07:17:09.126Z",
+      "notes": "efwf\n",
+      "position": {
+        "lat": "19.27809137757384",
+        "lng": "72.97465130289012"
+      },
+      "id": 1
+    }
+  ]
+}

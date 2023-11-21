@@ -1,0 +1,84 @@
+@import "https://unpkg.com/leaflet@1.7.1/dist/leaflet.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --color-brand--1: #ffd43b;
+  --color-brand--2: #a9e34b;
+
+  /* Dark Color Type */
+  --color-dark--0: #212529;
+  --color-dark--1: #343a40;
+  --color-dark--2: #495057;
+
+  /* light color Type */
+  --color-light--1: #adb5bd;
+  --color-light--2: #e9ecef;
+  --color-light--3: #ced4da;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  /* font */
+  font-family: "Poppins", sans-serif;
+  color: var(--color-light--2);
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+label {
+  /* font */
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+input,
+textarea {
+  /* dimension */
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+
+  /* font */
+  font-family: inherit;
+  font-size: 1.6rem;
+
+  /* background */
+  background-color: var(--color-light--3);
+
+  /* extra */
+  transition: all 0.2s;
+}
+
+input:focus {
+  /*html*/
+  outline: none;
+  /* background */
+  background-color: #fff;
+}
+
+.btn:link,
+.btn:visited {
+  /* display */
+  display: inline-block;
+  /* background */
+  background-color: var(--color-brand--2);
+  /* font */
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--color-dark--1);
+  text-transform: uppercase;
+  text-decoration: none;
+  /* dimensions */
+  padding: 1rem 3rem;
+  border-radius: 5px;
+}

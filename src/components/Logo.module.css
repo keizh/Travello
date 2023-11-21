@@ -1,0 +1,23 @@
+.logo {
+  /* dimension */
+  height: 6.5rem;
+}
+
+.Link {
+  /* display */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Organisation {
+  margin-left: 1rem;
+  font-size: 3rem;
+  color: #ffec99;
+}
+
+.Organisation::first-letter {
+  /* font */
+  font-size: 4rem;
+  color: #fab005;
+}
