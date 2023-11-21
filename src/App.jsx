@@ -32,7 +32,7 @@ function App() {
             <Route path="form" element={<Form />} />
           </Route>
           <Route path="login" element={<Login />} />
-          <Route path="*" element={<PageNotFound />} />
+          <Route path="*" element={<HomePage />} />
         </Routes>
       </BrowserRouter>
     </CitiesProvider>
