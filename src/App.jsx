@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 import AppLayout from "./pages/AppLayout";
-import HomePage from "./pages/Homepage";
+import HomePage from "./pages/HomePage";
 import Product from "./pages/Product";
 import PageNotFound from "./pages/Pagenotfound";
 import Pricing from "./pages/Pricing";
